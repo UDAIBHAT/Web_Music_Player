@@ -29,6 +29,6 @@ git clone https://github.com/UDAIBHAT/Web_Music_Player.git
 
 <h3> Live Link </h3>
 
-<a href=""> click it! </a>
+<a href="https://udaibhat.github.io/Web_Music_Player/"> click it! </a>
 
 <br>
