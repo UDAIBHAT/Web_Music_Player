@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Music Player With Lyrics</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="author" content="Udai Bhat" />
+    <meta property="og:type" content="website" />
+    <meta
+      name="description"
+      content="HTML5 Music Player, Music Player, Web Music Player, Html Music Player, html player, html musik player, pemutar musik, musik, Music"
+    />
+
+    <link rel="shortcut icon" href="favicon.png" />
+  </head>
+
+  <body>
+    <ul class="g-snows" id="jsi-snows">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div id="overlay"></div>
+
+    <div class="float-sm">
+      <div class="fl-fl float-fb">
+        <i class="fa fa-facebook"></i>
+        <a
+          href="https://www.facebook.com/people/Udai-Bhat/pfbid02zbT1QpFkJYoH993qLCtNG7DAN5KXojrJkM4CAmZ9vvjnkgV1mDqNnTykYB57cKTfl/"
+          target="_blank"
+          >Add Friend!</a
+        >
+      </div>
+      <div class="fl-fl float-ig">
+        <i class="fa fa-instagram"></i>
+        <a href="https://www.instagram.com/udaibhat_/" target="_blank"
+          >Follow Me!</a
+        >
+      </div>
+
+      <div class="fl-fl float-web">
+        <i class="fa fa-github"></i>
+        <a href="https://github.com/UDAIBHAT" target="_blank">Github Page!</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="lyrics"></div>
+    </div>
+
+    <div class="player">
+      <div class="left"></div>
+      <div class="right">
+        <div class="top">
+          <p class="songs">
+            Put Your Head On My Shoulders
+
+            <br />Song by Paul Anka
+          </p>
+        </div>
+        <div class="bottom">
+          <video
+            controlslist="nodownload"
+            controls=""
+            _autoplay=""
+            name="media"
+            oncontextmenu="return false;"
+          >
+            <source src="Put Your Head On My Shoulder.mp3" type="audio/mpeg" />
+          </video>
+        </div>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+`
